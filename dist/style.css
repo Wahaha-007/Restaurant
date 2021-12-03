@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+html {
+    /* background-color: blanchedalmond; */
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 6px black;
+}
+
+body {
+    /*height: 100vh;*/
+    background-image: url('images/table-3219660_960_720.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* overflow:hidden; */
+}
+
+.pTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pTop button {
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: #f44336e7;
+    font-size: large;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #af4c61;
+    transition-duration: 0.4s;
+}
+
+.pTop button:hover {
+    background-color: #af4c72c4;
+    color: black;
+}
+
+.pBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pMiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(97, 27, 27, 0.5);
+    /* Black background with 0.5 opacity */
+    padding: 30px;
+}
+
+.pLeft,
+.pRight {
+    width: 200px;
+}
+
+.pMiddleContent {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.picContainer {
+    position: relative;
+    margin: 20px 0;
+}
+
+.picText-block {
+    position: absolute;
+    /* Bottom left text */
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.3);
+    /* Black background with 0.5 opacity */
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.pBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
